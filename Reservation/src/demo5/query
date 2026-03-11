@@ -1,0 +1,14 @@
+CREATE DATABASE reservation_db;
+
+USE reservation_db;
+
+CREATE TABLE reservations (
+    pnr VARCHAR(10) PRIMARY KEY,
+    name VARCHAR(50),
+    trainNumber VARCHAR(10),
+    trainName VARCHAR(50),
+    classType VARCHAR(20),
+    dateOfJourney VARCHAR(20),
+    fromPlace VARCHAR(50),
+    toPlace VARCHAR(50)
+);
